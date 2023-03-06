@@ -38,3 +38,7 @@ img {
 svg {
   cursor: pointer;
 }
+
+.active {
+  display: none;
+}

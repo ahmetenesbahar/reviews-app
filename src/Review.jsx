@@ -5,18 +5,28 @@ import ReviewImage from "./ReviewImage";
 
 function Reviews() {
   const [review, setReview] = useState(data);
+  const [isActive, setIsActive] = useState(false);
+  const randomShow = () => {
+    var random = Math.floor(Math.random() * 4 + 1);
+    if (review.id == random) {
+      return setIsActive(true);
+    } else {
+      return setIsActive(false);
+    }
+  };
+
   return (
     <>
       <ReviewImage people={review} />
       {review.map((person) => {
         return (
-          <>
+          <div className={isActive && randomShow() ? "review" : "active"}>
             <div className="text">
               <h3 className="name">{person.name}</h3>
               <p className="job">{person.job}</p>
-              <p className="review">{person.text}</p>
+              <p className="yorum">{person.text}</p>
             </div>
-          </>
+          </div>
         );
       })}
       <div className="arrows">
