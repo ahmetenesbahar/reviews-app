@@ -10,6 +10,13 @@ Bu proje React kullanarak geliştirdiğim bir yorum uygulamasıdır.
 git clone https://github.com/ahmetenesbahar/reviews-app.git
 ```
 
+## Ekran Görüntüleri
+
+<div>
+<img src="https://github.com/ahmetenesbahar/reviews-app.git/screenshots/reviews-app.png">
+
+</div>
+
 ## Çalıştırma
 
 Projeyi çalıştırmak için ilgili klasörlere gelip, aşağıdaki komutu yazmanız yeterli olacaktır.
