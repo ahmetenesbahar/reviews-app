@@ -19,6 +19,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 2rem 3rem;
+  max-width: 800px;
 }
 
 img {
@@ -26,8 +28,61 @@ img {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 1rem;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: capitalize;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+.info h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.info h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #645cff;
+}
+.text-box {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-box p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
-svg {
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.arrows button {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #645cff;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.5rem;
   cursor: pointer;
+}
+
+.arrows svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  fill: #645cff;
 }
