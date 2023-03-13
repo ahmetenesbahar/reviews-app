@@ -13,7 +13,7 @@ git clone https://github.com/ahmetenesbahar/reviews-app.git
 ## Ekran Görüntüleri
 
 <div>
-<img src="https://github.com/ahmetenesbahar/reviews-app.git/screenshots/reviews-app.png">
+<img src="https://github.com/ahmetenesbahar/reviews-app/blob/main/src/screenshots/reviews-app.png">
 
 </div>
 
