@@ -21,24 +21,13 @@ body {
   flex-direction: column;
 }
 
-/* .background {
-  background-color: #645cff;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-} */
-
 img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 svg {
   cursor: pointer;
-}
-
-.active {
-  display: none;
 }
